@@ -58,12 +58,23 @@ form {
 .fab-contacts {
   font-size: 45px;
 }
+
+.vk-span, .inst-contacts {
+  margin-left: 1rem;
+}
+
 @media (max-width: 576px) {
   .col {
     flex-basis: auto;
   }
   .form-group {
     margin: 1rem;
+  }
+  .fab-contacts {
+    font-size: 40px;
+  }
+  #contacts p > a > span {
+    font-size: 17px;
   }
 }
 

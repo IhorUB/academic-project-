@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Photo-page</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+          integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
 <body>
-<div class="container body-wrapper">
+<div class="container">
     <header id="top">
         <div class="container">
             <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="mainNav">
@@ -34,7 +35,7 @@
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Портфоліо</a>
+                                <a class="nav-link" href="html/portfolio.html">Портфоліо</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Відгуки</a>
@@ -54,7 +55,9 @@
             </nav>
         </div>
     </header>
+</div>
     <main>
+     <div class="container">
         <div id="container-carousel">
             <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
                 <div class="carousel-inner">
@@ -87,103 +90,108 @@
                 </a>
             </div>
         </div>
-        <div class="about-me">
-            <h1>Геніальний фотограф Львів</h1>
-            <p>Ну дуже добре фотографую</p>
-            <div class="row">
-                <div class="col-md-6 photo">
-                    <h3>марта кічура</h3>
-                    <img src="img/Marta.jpg" alt="photographer">
-                </div>
-                <div class="col-md-6 skills">
-                    <div class="service">
-                        <div class="icon">
-                            <i class="fas fa-camera-retro" data-toggle="modal" data-target="#photo-info"></i>
-                        </div>
-                        <div class="text">
-                            <h4>Фотографія</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab corporis dolorem facere
-                                magnam modi quos recusandae. Ad aliquid deserunt esse iusto necessitatibus nostrum odio,
-                                quaerat reprehenderit tempore ullam? Minima?</p>
-                        </div>
-                        <div class="divide"></div>
-                    </div>
-                    <div class="service">
-                        <div class="icon">
-                            <i class="fas fa-heart"></i>
-                        </div>
-                        <div class="text">
-                            <h4>Фотографія</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab corporis dolorem facere
-                                magnam modi quos recusandae. Ad aliquid deserunt esse iusto necessitatibus nostrum odio,
-                                quaerat reprehenderit tempore ullam? Minima?</p>
-                        </div>
-                        <div class="divide"></div>
-                    </div>
-                    <div class="service">
-                        <div class="icon">
-                            <i class="fas fa-camera"></i>
-                        </div>
-                        <div class="text">
-                            <h4>Фотографія</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab corporis dolorem facere
-                                magnam modi quos recusandae. Ad aliquid deserunt esse iusto necessitatibus nostrum odio,
-                                quaerat reprehenderit tempore ullam? Minima?</p>
-                        </div>
-                        <div class="divide"></div>
-                    </div>
-                </div>
+     </div>
+<div class="container">
+    <div class="about-me">
+        <h1>Геніальний фотограф Львів</h1>
+        <p>Ну дуже добре фотографую</p>
+        <div class="row">
+            <div class="col-md-6 photo">
+                <h3>марта кічура</h3>
+                <img src="img/Marta.jpg" alt="photographer">
             </div>
-        </div>
-        <div class="form-section container">
-            <h5>Залишити заявку</h5>
-            <p>Залиште заявку і я зв'яжуся з Вами протягом найближчого часу!</p>
-            <form>
-                <div class="row">
-                    <div class="col name-form">
-                        <label for="name-form">Ім'я:</label>
-                        <input type="text" class="form-control" id="name-form" placeholder="Ім'я">
+            <div class="col-md-6 skills">
+                <div class="service">
+                    <div class="icon">
+                        <i class="fas fa-camera-retro" data-toggle="modal" data-target="#photo-info"></i>
                     </div>
-                    <div class="col label-form">
-                        <label for="email-form">E-mail:</label>
-                        <input type="email" class="form-control" id="email-form" placeholder="E-mail">
-                    </div>
-                </div>
-                <div class="form-group label-form">
-                    <label for="sercice-form">Послуга:</label>
-                    <input type="text" class="form-control" id="sercice-form">
-                </div>
-                <div class="form-group label-form">
-                    <label for="message-form">Коментар:</label>
-                    <textarea class="form-control" id="message-form" rows="3"></textarea>
-                </div>
-                <p>
-                    <button type="submit" class="btn btn-primary">Надіслати</button>
-                </p>
-            </form>
-            <div id="contacts">
-                <p><a href="#"><i class="fab-contacts fab fa-facebook-square"></i><br><span>facebook</span></a></p>
-                <p><a href="#"><i class="fab-contacts fab fa-vk"></i><br><span>vk</span></a></p>
-                <p><a href="#"><i class="fab-contacts fab fa-instagram"></i><br><span>instagram</span></a></p>
-                <p><a href="#"><i class="fab-contacts fas fa-envelope-square"></i><br><span>gmail</span></a></p>
-            </div>
-        </div>
-    </main>
-    <!-- Modal -->
-    <div class="modal fade" id="photo-info" tabindex="-1" role="dialog" aria-labelledby="photo-info" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="photo-infoLabel">photo info</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
+                    <div class="text">
                         <h4>Фотографія</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab corporis dolorem facere
                             magnam modi quos recusandae. Ad aliquid deserunt esse iusto necessitatibus nostrum odio,
-                            q</p>
+                            quaerat reprehenderit tempore ullam? Minima?</p>
+                    </div>
+                    <div class="divide"></div>
+                </div>
+                <div class="service">
+                    <div class="icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <div class="text">
+                        <h4>Фотографія</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab corporis dolorem facere
+                            magnam modi quos recusandae. Ad aliquid deserunt esse iusto necessitatibus nostrum odio,
+                            quaerat reprehenderit tempore ullam? Minima?</p>
+                    </div>
+                    <div class="divide"></div>
+                </div>
+                <div class="service">
+                    <div class="icon">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <div class="text">
+                        <h4>Фотографія</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab corporis dolorem facere
+                            magnam modi quos recusandae. Ad aliquid deserunt esse iusto necessitatibus nostrum odio,
+                            quaerat reprehenderit tempore ullam? Minima?</p>
+                    </div>
+                    <div class="divide"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="form-section container">
+    <h5>Залишити заявку</h5>
+    <p>Залиште заявку і я зв'яжуся з Вами протягом найближчого часу!</p>
+    <form class=send-form>
+        <div class="row">
+            <div class="col name-form">
+                <label for="name-form">Ім'я:</label>
+                <input type="text" class="form-control" id="name-form" placeholder="Ім'я">
+            </div>
+            <div class="col label-form">
+                <label for="email-form">E-mail:</label>
+                <input type="email" class="form-control" id="email-form" placeholder="E-mail">
+            </div>
+        </div>
+        <div class="form-group label-form">
+            <label for="sercice-form">Послуга:</label>
+            <input type="text" class="form-control" id="sercice-form">
+        </div>
+        <div class="form-group label-form">
+            <label for="message-form">Коментар:</label>
+            <textarea class="form-control" id="message-form" rows="3"></textarea>
+        </div>
+        <p>
+            <button type="submit" class="btn btn-primary">Надіслати</button>
+        </p>
+    </form>
+</div>
+<div class="container">
+    <div id="contacts">
+        <p><a href="#"><i class="fab-contacts fab fa-facebook-square"></i><br><span>facebook</span></a></p>
+        <p><a href="#"><i class="fab-contacts fab fa-vk"></i><br><span class="vk-span">vk</span></a></p>
+        <p><a href="#"><i class="fab-contacts fab fa-instagram inst-contacts"></i><br><span>instagram</span></a></p>
+        <p><a href="#"><i class="fab-contacts fas fa-envelope-square"></i><br><span>gmail</span></a></p>
+    </div>
+</div>
+</main>
+<!-- Modal -->
+<div class="modal fade" id="photo-info" tabindex="-1" role="dialog" aria-labelledby="photo-info" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="photo-infoLabel">photo info</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <h4>Фотографія</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab corporis dolorem facere
+                    magnam modi quos recusandae. Ad aliquid deserunt esse iusto necessitatibus nostrum odio,
+                    q</p>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 </div>
@@ -191,7 +199,7 @@
         </div>
     </div>
 </div>
-</div>
+
 <script
         src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="

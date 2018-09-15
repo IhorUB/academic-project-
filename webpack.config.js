@@ -6,9 +6,9 @@ let CleanWebpackPlugin = require('clean-webpack-plugin');
 let conf = {
     entry: './src/js/index.js',
     output: {
-        path: path.resolve(__dirname, './dist'),
+        path: path.resolve(__dirname, './docs'),
         filename: 'main.js',
-        //publicPath: 'dist/'
+        //publicPath: 'docs/'
     },
     devServer: {
         overlay: true
@@ -49,6 +49,20 @@ let conf = {
                         }
                     }
                 ]
+            },
+            {
+                test: /\.html$/,
+                use: [
+                    {
+                        loader: 'file-loader',
+                        options: {
+                            name: '[name].[ext]',
+                            outputPath: 'html/',
+                            publicPath: 'html/'
+                        }
+                    }
+                ],
+                exclude: path.resolve(__dirname, 'src/index.html')
             }
         ]
     },
@@ -57,7 +71,7 @@ let conf = {
         new HtmlWebpackPlugin({
             template: 'src/index.html'
         }),
-        new CleanWebpackPlugin(['dist'])
+        new CleanWebpackPlugin(['docs'])
     ]
 };
 module.exports = (env, options) => {

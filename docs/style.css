@@ -112,6 +112,9 @@ header {
   .fab {
     font-size: 15px; } }
 
+#container-carousel {
+  width: 100%; }
+
 .carousel-item img {
   max-width: 100%; }
 
@@ -276,10 +279,17 @@ form {
 .fab-contacts {
   font-size: 45px; }
 
+.vk-span, .inst-contacts {
+  margin-left: 1rem; }
+
 @media (max-width: 576px) {
   .col {
     flex-basis: auto; }
   .form-group {
-    margin: 1rem; } }
+    margin: 1rem; }
+  .fab-contacts {
+    font-size: 40px; }
+  #contacts p > a > span {
+    font-size: 17px; } }
 
 /*# sourceMappingURL=style.css.map*/
