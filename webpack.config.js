@@ -4,9 +4,7 @@ let HtmlWebpackPlugin = require('html-webpack-plugin');
 let CleanWebpackPlugin = require('clean-webpack-plugin');
 
 let conf = {
-    entry: {
-      index: './src/js/index.js'
-    },
+    entry: './src/js/index.js',
     output: {
         path: path.resolve(__dirname, './docs'),
         filename: 'main.js',
@@ -59,6 +57,8 @@ let conf = {
                         loader: 'file-loader',
                         options: {
                             name: '[name].[ext]',
+                            outputPath: 'img/',
+                            publicPath: 'img/'
                         }
                     }
                 ],
@@ -71,11 +71,6 @@ let conf = {
         new HtmlWebpackPlugin({
             filename: 'index.html',
             template: 'src/index.html'
-        }),
-        new HtmlWebpackPlugin({
-            filename: 'portfolio.html',
-            template: 'src/portfolio.html',
-            chunks: ['']
         }),
         new CleanWebpackPlugin(['docs'])
     ]
