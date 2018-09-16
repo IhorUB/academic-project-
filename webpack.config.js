@@ -57,8 +57,8 @@ let conf = {
                         loader: 'file-loader',
                         options: {
                             name: '[name].[ext]',
-                            outputPath: 'img/',
-                            publicPath: 'img/'
+                            outputPath: 'html/',
+                            publicPath: 'html/'
                         }
                     }
                 ],
