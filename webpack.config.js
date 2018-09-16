@@ -4,7 +4,9 @@ let HtmlWebpackPlugin = require('html-webpack-plugin');
 let CleanWebpackPlugin = require('clean-webpack-plugin');
 
 let conf = {
-    entry: './src/js/index.js',
+    entry: {
+      index: './src/js/index.js'
+    },
     output: {
         path: path.resolve(__dirname, './docs'),
         filename: 'main.js',
