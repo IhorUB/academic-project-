@@ -1,0 +1,34 @@
+footer {
+  background-color: #1e1e1e;
+  color: #cacaca;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer p > a {
+  color: #cacaca;
+  font-weight: 700;
+}
+
+footer p > a:hover {
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+footer > a {
+  font-size: 45px;
+  color: #494949;
+}
+
+footer > a:hover {
+  opacity: 0.8;
+}
+
+@media(max-width: 576px) {
+  footer {
+    padding: 6px;
+  }
+}
