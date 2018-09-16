@@ -2,19 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f7c66e3-f7a1-4157-ac3f-204fd8f93357" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/html/portfolio.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/img/Marta.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/img/carosel-girl.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/img/carousel-girl-last.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/img/carousel-girl-next.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/main.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/portfolio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/html/portfolio.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img/Marta.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img/carosel-girl.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img/carousel-girl-last.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/img/carousel-girl-next.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/main.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/portfolio.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
@@ -52,15 +51,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="21" />
-          <entry key="html" value="2813" />
-          <entry key="js" value="564" />
+          <entry key="html" value="2869" />
+          <entry key="js" value="646" />
           <entry key="scss" value="1990" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="2813" />
-          <entry key="JavaScript" value="564" />
+          <entry key="HTML" value="2869" />
+          <entry key="JavaScript" value="646" />
           <entry key="PLAIN_TEXT" value="21" />
           <entry key="SCSS" value="1990" />
         </counts>
@@ -93,8 +92,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="299">
-                  <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+                <state relative-caret-position="230">
+                  <caret line="169" column="13" lean-forward="true" selection-start-line="144" selection-start-column="3" selection-end-line="169" selection-end-column="15" />
                 </state>
               </provider>
             </entry>
@@ -112,20 +111,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/html/portfolio.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="207">
-                  <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/webpack.config.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="3">
-                  <caret line="74" selection-start-line="74" selection-end-line="75" />
+                <state relative-caret-position="184">
+                  <caret line="77" column="24" lean-forward="true" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
                 </state>
               </provider>
             </entry>
@@ -209,9 +199,9 @@
         <option value="$PROJECT_DIR$/src/css/main.scss" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/css/footer.scss" />
+        <option value="$PROJECT_DIR$/src/css/header.scss" />
         <option value="$PROJECT_DIR$/src/html/portfolio.html" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
-        <option value="$PROJECT_DIR$/src/css/header.scss" />
       </list>
     </option>
   </component>
@@ -231,7 +221,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="604" />
     <option name="y" value="59" />
     <option name="width" value="810" />
@@ -260,12 +250,6 @@
               <item name="webpack v4" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webpack v4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webpack v4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webpack v4" type="b2602c69:ProjectViewProjectNode" />
@@ -336,12 +320,12 @@
       <workItem from="1537001693360" duration="946000" />
       <workItem from="1537036579931" duration="14704000" />
       <workItem from="1537093784180" duration="12742000" />
-      <workItem from="1537121950347" duration="1687000" />
+      <workItem from="1537121950347" duration="3287000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129913000" />
+    <option name="totallyTimeSpent" value="131513000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -353,7 +337,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13913691" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -367,9 +352,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49925596" weight="0.32885906" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.6056548" visible="true" weight="0.8724832" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.6056548" visible="true" weight="0.27684563" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.39434522" side_tool="true" visible="true" weight="0.8724832" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.39434522" side_tool="true" visible="true" weight="0.27684563" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -470,13 +455,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/portfolio.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/css/main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -507,8 +485,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        <state relative-caret-position="230">
+          <caret line="169" column="13" lean-forward="true" selection-start-line="144" selection-start-column="3" selection-end-line="169" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/portfolio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
@@ -525,8 +510,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3">
-          <caret line="74" selection-start-line="74" selection-end-line="75" />
+        <state relative-caret-position="184">
+          <caret line="77" column="24" lean-forward="true" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
         </state>
       </provider>
     </entry>

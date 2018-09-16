@@ -59,8 +59,6 @@ let conf = {
                         loader: 'file-loader',
                         options: {
                             name: '[name].[ext]',
-                            outputPath: 'html/',
-                            publicPath: 'html/'
                         }
                     }
                 ],
@@ -71,7 +69,13 @@ let conf = {
     plugins: [
         new ExtractTextPlugin('style.css'),
         new HtmlWebpackPlugin({
+            filename: 'index.html',
             template: 'src/index.html'
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'portfolio.html',
+            template: 'src/portfolio.html',
+            chunks: ['']
         }),
         new CleanWebpackPlugin(['docs'])
     ]
