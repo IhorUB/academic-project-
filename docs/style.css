@@ -235,8 +235,7 @@ header {
 
 @media (max-width: 576px) {
   .photo h3 {
-    text-transform: uppercase;
-    margin-left: 6rem !important; }
+    text-transform: uppercase; }
   .photo h3::after {
     width: 0; }
   .row {
