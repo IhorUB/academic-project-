@@ -35,9 +35,9 @@ form {
   display: flex;
   justify-content: space-around;
   padding: 2rem 0;
+  line-height: 2;
   border-top: 1px solid rgba(0, 0, 0, 0.09);
   border-bottom: 1px solid rgba(0, 0, 0, 0.09);
-  line-height: 2;
 }
 
 #contacts > p:hover {
