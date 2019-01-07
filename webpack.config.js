@@ -4,12 +4,15 @@ let HtmlWebpackPlugin = require('html-webpack-plugin');
 let CleanWebpackPlugin = require('clean-webpack-plugin');
 
 let conf = {
-    entry: './src/js/index.js',
+    entry: {
+        index: './src/js/index.js',
+        portfolio: './src/js/index.js'
+    },
     output: {
         path: path.resolve(__dirname, './docs'),
-        filename: 'main.js',
-        //publicPath: 'docs/'
+        filename: '[name].js'
     },
+
     devServer: {
         overlay: true
     },
@@ -62,15 +65,23 @@ let conf = {
                         }
                     }
                 ],
-                exclude: path.resolve(__dirname, 'src/index.html')
+                 exclude: path.resolve(__dirname, 'src/index.html')
             }
         ]
     },
     plugins: [
         new ExtractTextPlugin('style.css'),
         new HtmlWebpackPlugin({
+            inject: true,
+            chunks: ['index'],
             filename: 'index.html',
             template: 'src/index.html'
+        }),
+        new HtmlWebpackPlugin({
+            inject: true,
+            chunks: ['index'],
+            filename: 'portfolio.html',
+            template: 'src/portfolio.html'
         }),
         new CleanWebpackPlugin(['docs'])
     ]
