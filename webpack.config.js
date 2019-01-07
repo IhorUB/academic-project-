@@ -53,20 +53,6 @@ let conf = {
                     }
                 ]
             },
-            {
-                test: /\.html$/,
-                use: [
-                    {
-                        loader: 'file-loader',
-                        options: {
-                            name: '[name].[ext]',
-                            outputPath: 'html/',
-                            publicPath: 'html/'
-                        }
-                    }
-                ],
-                 exclude: path.resolve(__dirname, 'src/index.html')
-            }
         ]
     },
     plugins: [
@@ -75,7 +61,8 @@ let conf = {
             inject: true,
             chunks: ['index'],
             filename: 'index.html',
-            template: 'src/index.html'
+            template: 'src/index.html',
+            favicon: 'src/favicon.png'
         }),
         new HtmlWebpackPlugin({
             inject: true,
@@ -83,6 +70,7 @@ let conf = {
             filename: 'portfolio.html',
             template: 'src/portfolio.html'
         }),
+
         new CleanWebpackPlugin(['docs'])
     ]
 };
