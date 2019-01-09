@@ -43,9 +43,91 @@
   margin-left: 19px;
 }
 
-.photo img {
-  max-width: 100%;
+/* personal card*/
+
+.team-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: 0.5s;
+  background-color: #ccc;
 }
+
+.team-card:hover {
+  box-shadow: 0 20px 20px rgba(0, 0, 0, .2);
+}
+
+.team-card .img-box {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+}
+
+.team-card .img-box img {
+  width: 100%;
+  display: block;
+
+}
+
+.team-card:hover .img-box {
+  opacity: 0.5;
+}
+
+.team-card:hover .team-content {
+  bottom: 0;
+}
+
+.team-card .team-content {
+  position: absolute;
+  width: 100%;
+  bottom: -100%;
+  padding: 60px 20px 20px 20px;
+  text-align: center;
+  box-sizing: border-box;
+  transition: 0.5s;
+  background: linear-gradient(0deg, #28b8d8, transparent);
+}
+
+
+  .team-card .team-content h2 {
+    margin: 0 0 10px;
+    padding: 0;
+    color: #fff;
+    font-size: 20px;
+  }
+
+  .team-card .team-content h2 span {
+    color: #ffeb3b;
+    font-size: 16px;
+  }
+
+  .team-card .team-content p {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: #fff;
+  }
+
+  .team-card .team-content ul {
+    display: flex;
+    margin: 20px 0 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .team-card .team-content ul li {
+    list-style: none;
+  }
+
+  .team-card .team-content ul li a {
+    color: #fff;
+    padding: 0 10px;
+    font-size: 18px;
+    transition: 0.5s;
+  }
+/* end personal photo-card*/
 
 .skills {
   margin-top: 3rem;

@@ -40,6 +40,9 @@
                         <a class="nav-link" href="#">Відгуки</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="#">Блог</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link smooth" href="#contacts">Контакти</a>
                     </li>
                 </ul>
@@ -90,8 +93,21 @@
             <p>Ну дуже добре фотографую</p>
             <div class="row">
                 <div class="col-md-6 photo">
-                    <h3>марта кічура</h3>
-                    <img src="img/Marta.jpg" alt="photographer">
+                    <div class="team-card wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                        <div class="img-box">
+                            <img src="img/Marta.jpg" alt="marta kichyra">
+                        </div>
+                        <div class="team-content">
+                            <h2>Awesome person<span><br>Company position</span></h2>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                            </p>
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-md-6 skills">
                     <div class="service">
@@ -140,15 +156,15 @@
     <div class="form-section container">
         <h5>Залишити заявку</h5>
         <p>Залиште заявку і я зв'яжуся з Вами протягом найближчого часу!</p>
-        <form class=send-form>
+        <form class="send-form">
             <div class="row">
-                <div class="col name-form">
+                <div class="col label-form">
                     <label for="name-form">Ім'я:</label>
-                    <input type="text" class="form-control" id="name-form" placeholder="Ім'я">
+                    <input type="text" class="form-control" id="name-form" placeholder="Ім'я" required>
                 </div>
                 <div class="col label-form">
-                    <label for="email-form">E-mail:</label>
-                    <input type="email" class="form-control" id="email-form" placeholder="E-mail">
+                    <label for="email-form">E-mail</label>
+                    <input type="email" class="form-control" id="email-form" placeholder="E-mail" required>
                 </div>
             </div>
             <div class="form-group label-form">
@@ -166,11 +182,44 @@
     </div>
     <div class="container">
         <div id="contacts">
-            <p><a href="#"><i class="fab-contacts fab fa-facebook-square"></i><br><span>facebook</span></a></p>
-            <p><a href="#"><i class="fab-contacts fab fa-vk"></i><br><span class="vk-span">vk</span></a></p>
-            <p><a href="#"><i class="fab-contacts fab fa-instagram inst-contacts"></i><br><span>instagram</span></a>
-            </p>
-            <p><a href="#"><i class="fab-contacts fas fa-envelope-square"></i><br><span>gmail</span></a></p>
+            <ul>
+                <li>
+                    <a href="#">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span class="fab fa-facebook-f"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span class="fab fa-twitter"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span><i class="fab fa-google"></i></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span class="fab fa-instagram"></span>
+                    </a>
+                </li>
+            </ul>
         </div>
     </div>
 </main>
@@ -215,5 +264,6 @@
         src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
+
 <script type="text/javascript" src="index.js"></script></body>
 </html>
